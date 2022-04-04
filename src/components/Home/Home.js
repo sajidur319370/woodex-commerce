@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import useComments from "../../hooks/UseComments";
 import banner from "../../images/table.png";
 import Comment from "../Comment/Comment";
+import useComments from "../hooks/UseComments";
 
 const Home = () => {
     const [comments, setComments] = useComments();

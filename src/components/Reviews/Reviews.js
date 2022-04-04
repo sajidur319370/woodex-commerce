@@ -1,5 +1,5 @@
-import useComments from "../../hooks/UseComments";
 import Comment from "../Comment/Comment";
+import useComments from "../hooks/UseComments";
 
 const Reviews = () => {
     const [comments, setComments] = useComments();
